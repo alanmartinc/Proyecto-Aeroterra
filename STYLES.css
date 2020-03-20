@@ -1,0 +1,96 @@
+/* Estilo universal (*) */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Estilo general de body */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Contorno del formulario */
+
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+/* Titulo general */
+
+.formulario-titulo {
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0,0,0,0.7);
+}
+
+/* Estilo de los botones informativos */
+
+.formulario-input, .formulario-label, .formulario-enviar, .formulario-borrar {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+/* Inicio del boton desplegable (Categoría) */
+
+.formulario-categoría {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+/* Fin del boton desplegable (Categoría) */
+
+/* Tamaños generales, colores, margenes, Borders, Margins y Posiciones... */
+
+.formulario-enviar, .formulario-borrar  {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: rgba(147,74,85,0.5);
+    cursor: pointer;
+    border: none;
+}
+
+.formulario-input {
+    padding: 20px;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+
+.formulario-label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20; 
+    /* El z-index me permite acomodar los elementos superpuestos */
+    color: rgba(0,0,0,0.5);
+}
+
+/* Inicio del google maps */
+
+#map {
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+/* Fin del google maps */
